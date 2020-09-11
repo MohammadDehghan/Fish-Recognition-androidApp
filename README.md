@@ -23,3 +23,5 @@ Rather than creating a CNN from scratch, we’ll use a pre-trained model and per
 ### Develop Android App
 After we’ve built our TensorFlow model with transfer learning, we’ll use the TFLite converter to create a mobile-ready model variant. The model will then be used in an Android application that recognizes images captured by the camera realtime.
 
+## Results
+After 100 epochs, the test accuracy is about 45 percent for 15 specious. to reach a better result, we need to increase our data number t0 500+. lack of data is a bottleneck in deep learning!
